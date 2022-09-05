@@ -7,8 +7,6 @@ class TransportFactory {
 
     companion object Factory {
         fun create(typeString: String) : TransportServices {
-            System.out.println("Factory create  " + typeString)
-
             var type : TransportType = TransportType.valueOf(typeString);
             if (TransportType.Train.equals(type)) {
                 return TrainServices()
