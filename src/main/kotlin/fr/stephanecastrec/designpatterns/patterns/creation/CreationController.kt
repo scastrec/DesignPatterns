@@ -1,4 +1,4 @@
-package fr.stephanecastrec.designpatterns
+package fr.stephanecastrec.designpatterns.patterns.creation
 
 import fr.stephanecastrec.designpatterns.patterns.creation.builder.Car
 import fr.stephanecastrec.designpatterns.patterns.creation.factory.TransportFactory
